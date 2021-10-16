@@ -78,6 +78,7 @@ h6 {
 .header {
   background-color: var(--logo-footer);
   letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
 }
 .header .item + .item {
   margin-left: 50px;
