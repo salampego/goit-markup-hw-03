@@ -154,6 +154,7 @@ ul {
 }
 /* hero */
 .hero {
+  background-image: url();
   padding: 200px 0;
   text-align: center;
   background-color: var(--background-hero);
@@ -172,7 +173,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero .hero-button {
+.hero-button {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
@@ -187,7 +188,7 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-.hero .hero-button:hover,
+.hero-button:hover,
 .hero-button:focus {
   background: #188ce8;
   border-color: var(--accent-color);
@@ -282,7 +283,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
 }
-/* */
+/* footer */
 .footer {
   background-color: var(--background-footer);
   padding: 60px 0;
